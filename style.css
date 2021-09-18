@@ -1,0 +1,58 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+:root{
+    --primary-color:#ffff00;
+    --off-yellow: #fdfd96;
+}
+
+.ferb-image{
+    max-width: 300px;
+    height: 165px;
+    margin: 1rem 3.5rem;
+    border-radius: 1rem;
+}
+
+.ferb-heading{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.container{
+    max-width: 320px;
+    margin: auto;
+}
+
+#txt-input{
+    width: 90%;
+    min-height: 90px;
+    padding:1rem;
+    border: 1px solid var(--primary-color);
+}
+
+#btn-translate{
+    background-color: var(--off-yellow);
+    margin: 1rem 0;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border: none;
+    padding: 0.7rem 1rem;
+}
+
+.output-div{
+    background-color: var(--off-yellow);
+    padding: 1rem;
+}
+
+hr{
+    border: 1px solid var(--primary-color);
+}
+
+#output{
+    background-color: var(--off-yellow);
+    padding: 4rem;
+}
